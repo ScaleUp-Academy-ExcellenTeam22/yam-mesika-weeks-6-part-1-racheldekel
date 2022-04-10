@@ -2,6 +2,13 @@ import time
 
 
 def timer(f, *args, **kwargs):
+    """
+    function that gets parameters and calculate the time that takes for it.
+    :param f: function
+    :param args: pointer to item
+    :param kwargs: dictionary
+    :return:
+    """
     start_time = time.time()
     f(*args, **kwargs)
     end_time = time.time()
