@@ -21,7 +21,5 @@ def is_mature(age):
 
 if __name__ == '__main__':
     ages = [0, 1, 4, 10, 20, 35, 56, 84, 120]
-    mature_ages = filter(is_mature, ages)
     our_generator = my_filter(is_mature, ages)
-    print(tuple(mature_ages))
     print(tuple(our_generator))
