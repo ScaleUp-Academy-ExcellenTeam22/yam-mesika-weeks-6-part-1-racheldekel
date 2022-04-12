@@ -1,7 +1,7 @@
 import string
 
 
-def clean_text(text):
+def count_words(text):
     """
     function that gets full syntax to remove punctuations and digits using translate it
     :param text: text of sentence
@@ -30,5 +30,5 @@ if __name__ == '__main__':
     The only difference is that there is no cat.
     """
 
-    new_text = words_length(clean_text(text_to_parse))
+    new_text = words_length(count_words(text_to_parse))
     print(new_text)
